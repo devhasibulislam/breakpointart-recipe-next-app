@@ -82,7 +82,7 @@ const AllRecipes = () => {
         onSubmit={handleSubmit(() => {})}
       >
         <input
-          type="text"
+          type="search"
           name="search"
           id="search"
           placeholder="Type recipe's name"

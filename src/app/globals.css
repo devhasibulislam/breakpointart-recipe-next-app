@@ -27,13 +27,13 @@ body {
 }
 
 textarea {
-  @apply form-textarea;
+  @apply form-textarea text-black;
 }
 
 input[type="text"],
 input[type="url"],
 input[type="search"] {
-  @apply form-input;
+  @apply form-input text-black;
 }
 
 select {
