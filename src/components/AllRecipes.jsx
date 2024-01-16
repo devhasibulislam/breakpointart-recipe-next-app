@@ -78,7 +78,7 @@ const AllRecipes = () => {
   return (
     <section className="flex flex-col gap-y-6">
       <form
-        className="w-full flex flex-row gap-x-4"
+        className="w-full flex md:flex-row flex-col gap-4"
         onSubmit={handleSubmit(() => {})}
       >
         <input
@@ -93,7 +93,7 @@ const AllRecipes = () => {
           name="ingredient"
           id="ingredient"
           defaultValue="All"
-          className="w-fit"
+          className="md:w-fit w-full"
           {...register("ingredient")}
         >
           <option value="All">All ingredient</option>
@@ -106,7 +106,7 @@ const AllRecipes = () => {
       </form>
 
       {/* recipe cards */}
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
         {filteredRecipes?.map((recipe) => (
           <div
             key={recipe._id}

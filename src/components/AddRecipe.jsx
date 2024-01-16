@@ -101,7 +101,7 @@ const AddRecipe = () => {
 
   return (
     <form
-      className="w-1/2 mx-auto flex flex-col gap-y-4"
+      className="lg:w-1/2 md:w-3/4 w-full mx-auto flex flex-col gap-y-4"
       onSubmit={handleSubmit(handleAddRecipe)}
     >
       {/* recipe title */}
