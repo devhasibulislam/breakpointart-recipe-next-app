@@ -17,7 +17,7 @@
 - Search by recipe title
 - Filter by recipe ingredients
 
-`Functionality`, `Code Quality` & `Error Handling` maintained as per ordered [here](https://docs.google.com/document/d/1_jIvTBeOK-rCrRy0c7WTqGH5mjQtoIferSQSl6-mf3s/edit)
+`Functionality`, `Code Quality` & `Error Handling` maintained as per mentioned [here](https://docs.google.com/document/d/1_jIvTBeOK-rCrRy0c7WTqGH5mjQtoIferSQSl6-mf3s/edit)
 
 ## Development
 
